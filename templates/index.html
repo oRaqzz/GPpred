@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPpred</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h4>GP stock price Predictor</h4>
+    <h2>Please submit today's GP market info.</h2>
+
+    <form id="predictionForm">
+    <label for="Open">Open:</label>
+    <input type="number" step="any" id="Open" name="Open" required>
+
+    <label for="High">High:</label>
+    <input type="number" step="any" id="High" name="High" required>
+
+    <label for="Low">Low:</label>
+    <input type="number" step="any" id="Low" name="Low" required>
+
+    <label for="Close">Close:</label>
+    <input type="number" step="any" id="Close" name="Close" required>
+
+    <label for="Volume">Volume:</label>
+    <input type="number" step="any" id="Volume" name="Volume" required>
+
+    <label for="Date">Date:</label>
+    <input type="Date" step="any" id="Date" name="Date" required>
+
+    <button type="submit">Predict</button>
+    </form>
+    
+    <div id="result" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
