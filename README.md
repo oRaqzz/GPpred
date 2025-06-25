@@ -1,5 +1,3 @@
 # 👋 Greetings!
 
-**[🔗 Click here to access the project]([https://your-project-url.com](https://gppred.onrender.com/))**
-
----
+**Visit this URL to use the website 👉 [https://gppred.onrender.com/](https://gppred.onrender.com/)**
